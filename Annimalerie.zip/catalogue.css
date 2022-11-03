@@ -1,0 +1,95 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background-color: lightgray;
+
+    background-size: cover;
+
+    min-height: 90vh;
+
+}
+
+
+li {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'popins',sans-serif;
+}
+
+
+
+
+.mainhead {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    min-height: 5ch;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem;
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 30%;
+    text-align: center;
+}
+
+.bouttons{
+    margin:20px auto;
+    width : 20%;
+    padding:15px;
+    border:10px solid black;
+    background-color: white;
+    font-family: 'Popins', sans-serif;
+    text-align:center;
+    border-radius: 10%;
+
+ }
+  
+ 
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+

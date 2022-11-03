@@ -1,0 +1,182 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background-color: lightgray;
+
+    background-size: cover;
+
+    min-height: 90vh;
+
+}
+
+
+li {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'popins',sans-serif;
+}
+
+
+
+
+.mainhead {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    min-height: 5ch;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem;
+    color: white;
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: 'popins', sans-serif;
+}
+
+
+.image {
+    margin:20px auto;
+    width : 70%;
+    padding:15px;
+    border:10px solid grey;
+    text-align:center;
+    border-radius: 10%;
+ }
+
+h{
+    color: black;
+    font-family:  'cursive';
+    font-size: xx-large;
+}
+
+h2{
+    color: black;
+    font-family: 'Popins', sans-serif;
+    font-size: xx-large;
+}
+
+ p1{
+   
+    color: black;
+    text-decoration: underline;
+    font-family: 'Popins', sans-serif;
+    font-size: x-large;
+ }
+
+ .title{
+    text-align: center;
+ }
+
+ .tableau{
+    margin:20px auto;
+    width : 20%;
+    padding:15px;
+    border:10px solid grey;
+    background-color: white;
+    font-family: 'Popins', sans-serif;
+    text-align:center;
+    border-radius: 10%;
+
+ }
+
+ .cadre{
+    width: 800px;
+    height: 810px;
+    border: 10px solid white;
+    background-color: white;
+    margin:auto;
+ }
+
+ .cadre1{
+    width: 800px;
+    height: 590px;
+    border: 1px solid white;
+    background-color: white;
+    margin:auto;
+ }
+
+ .cadre2{
+    width: 800px;
+    height: 620px;
+    border: 1px solid white;
+    background-color: white;
+    margin:auto;
+ }
+ 
+ .cadre3{
+    width: 800px;
+    height: 870px;
+    border: 1px solid white;
+    background-color: white;
+    margin:auto;
+ }
+
+ .cadre4{
+    width: 800px;
+    height: 850px;
+    border: 1px solid white;
+    background-color: white;
+    margin:auto;
+ }
+
+ .cadre5{
+    width: 800px;
+    height: 690px;
+    border: 1px solid white;
+    background-color: white;
+    margin:auto;
+ }
+
+
+ button {
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 30%;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
