@@ -1,0 +1,103 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+html {
+    font-size: 55%;
+
+}
+
+li {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+
+    background: linear-gradient(rgb(0, 0, 0), transparent), url("PawerFul.png");
+
+    background-size: cover;
+
+    min-height: 200vh;
+
+}
+
+
+.mainhead {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    min-height: 10ch;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 2rem;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 2 1 40rem;
+    color: rgb(244, 239, 233);
+    font-style: italic;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+
+    min-height: 90vh;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: rgb(247, 242, 242);
+}
+
+
+
+.hero h3 {
+    padding: 4rem;
+    color: white;
+    font-family: 'popins', sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+button {
+    padding: 2rem 3rem;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+}

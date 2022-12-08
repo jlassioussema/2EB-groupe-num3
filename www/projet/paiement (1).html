@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>paiement</title>
+    <link rel="stylesheet" href="paiement.css">
+    <script type="text/javascript" src="paiement.js"></script>
+</head>
+<header class="main-head">
+    <nav>
+        <h1 id="logo">PAWERFUL</h1>
+        <ul>
+            <li><a href="acceuil.html">welcome</a></li>
+            <li><a href="catalogue.html">Our products</a></li>
+            <li> <a href="rendezvous.html">veterinary space</a></li>
+            <li> <a href="pet.html">animal hairstyle</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="classe1">
+        <form class="classe" name="f" action="paiement.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <br> Nom : <input type="text" name="nom" required></br>
+                        <br> Prenom : <input type="text" name="prenom" required></br>
+                        <br> CodePostal : <input type="text" name="Code_Postal" required></br>
+                        <br> Ville : <input type="text" name="Ville"></br required>
+                        <br> email : <input type="text" name="adress"></br required>
+                        <br> Telephone Mobile : <input type="text" name="tel"></br required>
+                        <br>Paiement : <input type="radio" value="carte" name="r1" required>Paiement Par Carte <input
+                            type="radio" name="r1"> Paiement Par Livraison</br>
+                        <br><input type="submit" value="Valider" onclick="verif()" class="b" /></br>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+<footer>
+    <a href="rendezvous.html">
+        <br><button>For more information</a></button></br>
+</footer>
+
+</html>
