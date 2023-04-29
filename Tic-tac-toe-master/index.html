@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tic tac toe">
+  <meta name="keywords"
+        content="HTML, CSS, JavaScript, tic tac toe, ucode, unitfactory, cbl, cblworld">
+  <meta name="author" content="Tetiana Rohalska">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 id="title">Tic tac toe</h1>
+  <main>
+    <section id="startBox" class="sidebar">
+      <label for="player1_name">Player 1:</label>
+      <input type="text" id="player1_name" maxlength="20" placeholder="Player '∆'"/>
+      <label for="player2_name">Player 2:</label>
+      <input type="text" id="player2_name" maxlength="20" placeholder="Bot"/>
+      <label for="columns">Columns:</label>
+      <input type="number" id="columns" min="4" max="10" placeholder="4"/>
+      <label for="steps">Winn length: </label>
+      <input type="number" id="steps" min="4" max="10" placeholder="4"/>
+      <button id="start" class="button_box">START</button>
+    </section>
+    <section id="field">                      
+    </section>
+    <section class="sidebar">
+      <p id="player1" class="button_box">-</p>
+      <p id="player2" class="button_box">-</p>
+      <div id="turns">
+        <p id="titleTurns">Number of turns</p>
+        <p id="numberTurns">0</p>
+      </div>
+      <h2 id="status"></h2>
+      <button id="playAgain" class="button_box">PLAY AGAIN</button>
+      <button id="restart" class="button_box">RESTART</button>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
